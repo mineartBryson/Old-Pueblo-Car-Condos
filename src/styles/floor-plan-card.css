@@ -1,0 +1,58 @@
+.floor-plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px; /* Adds spacing between cards */
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+/* Card Styling */
+.floor-plan-card {
+  background: rgba(12, 45, 91, 0.3);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+  max-width: 320px; /* Adjust width for better row alignment */
+  text-align: center;
+  position: relative;
+}
+
+/* Image */
+.floor-plan-card__image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Title */
+.floor-plan-card__title {
+  font-size: 1.8rem;
+  color: #FFD700;
+  margin-top: 10px;
+}
+
+/* Button */
+.floor-plan-card__button {
+  background: linear-gradient(to right, #FFD700, #DAA520);
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+.floor-plan-card__button:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .floor-plan {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .floor-plan-card {
+    max-width: 100%;
+  }
+}

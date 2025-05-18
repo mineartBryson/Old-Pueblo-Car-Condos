@@ -1,0 +1,121 @@
+/* Floor Plans Container */
+.floor-plans {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  max-width: 98vw;
+  margin: auto;
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+/* Card Styling */
+.floor-plan-card {
+  background: rgba(12, 12, 12, 0.582);
+  backdrop-filter: blur(4px);
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 7px 12px rgba(19, 19, 19, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title Styling - Placed Above the Image */
+.floor-plan-card__title {
+  font-size: 1.8rem;
+  color: #FFD700; /* Gold accent */
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.floor-plan-card:hover {
+    transform: translateY(-5px);
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2);
+}
+
+/* Image */
+.floor-plan-card__image {
+  max-width: 450px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.floor-plan-card__button:hover {
+  background: #ff3b30;
+}
+
+/* Modal Styling */
+.floor-plan-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.floor-plan-modal__content {
+  background: rgba(12, 12, 12, 0.9);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.2);
+  max-width: 1100px;
+  text-align: center;
+  position: relative;
+}
+
+/* Modal Title */
+.floor-plan-modal__title {
+  font-size: 2rem;
+  color: #FFD700;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* Modal Body */
+.floor-plan-modal__body {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Modal Image */
+.floor-plan-modal__image {
+  max-width: 765px;
+  border-radius: 12px;
+}
+
+/* Modal Details */
+.floor-plan-modal__details {
+  width: 50%;
+  list-style: none;
+  padding: 0;
+  font-size: 1.3rem;
+  color: #E0E0E0;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 20px; /* Creates spacing between image & text */
+}
+
+@media (max-width: 600px) {
+  .floor-plans {
+    gap: 10px;
+  }
+}

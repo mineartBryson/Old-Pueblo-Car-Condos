@@ -1,0 +1,59 @@
+/* Header Component */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(12, 12, 12)
+}
+
+.header__logo {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  color: #FFC300; /* Electric Gold */
+}
+
+.header__nav {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  margin: 0 15px;
+}
+
+.nav__item a {
+  font-family: "Montserrat", sans-serif;
+  color: #C0C0C0; /* Silver Chrome */
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav__item a:hover {
+  color: #D61F1F; /* Crimson Red */
+}
+
+/* Working on responsive layout for mobile devices */
+@media (max-width: 700px) {
+  .nav__list {
+    flex-direction: column; /* Makes navigation stack */
+    align-items: center;
+  }
+
+  .nav__item {
+    margin: 3px;
+  }
+
+  .header__logo {
+    font-size: 16px;
+  }
+
+  .nav__item {
+    font-size: 12px;
+  }
+}

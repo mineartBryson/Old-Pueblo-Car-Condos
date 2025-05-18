@@ -1,0 +1,50 @@
+/* InfoSection Container */
+.info {
+  width: 98vw;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+  margin: auto;
+  margin-top: 15px;
+}
+
+/* Content Styling */
+.info__content {
+    text-align: center;
+    margin: auto;
+  font-size: 1.4rem;
+  color: #cdcccc; /* Soft metallic contrast */
+  max-width: 95%;
+}
+
+.info__cards {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Responsive Design Tweaks */
+@media (max-width: 700px) {
+  .info {
+    padding: 10px 30px;
+  }
+
+  .info__title {
+    font-size: 2.2rem;
+  }
+
+  .info__content {
+    font-size: 1.2rem;
+  }
+
+  .info__cards {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}
