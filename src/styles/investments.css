@@ -108,8 +108,8 @@
   }
 
   .investment__card {
-    width: 90%;
-    max-width: 350px; /* Prevents cards from overflowing on small screens */
+    width: 85%;
+    max-width: 340px; /* Prevents cards from overflowing on small screens */
     margin: auto;
     text-align: center;
   }
