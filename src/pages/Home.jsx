@@ -1,3 +1,6 @@
+// Home.jsx
+// This file is what holds all of the other sections on the website that are not the header and footer
+
 import React from "react";
 import HeroSection from "./HeroSection"; // Example component
 import InfoSection from "./InfoSection";

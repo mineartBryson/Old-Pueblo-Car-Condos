@@ -1,3 +1,6 @@
+// LocationSection.jsx
+// This section is used to display the lot that this complex could be built on and display the perks and specs of that location
+
 import React from "react";
 import "../styles/location-section.css";
 import location from '../assets/images/location.jpeg';

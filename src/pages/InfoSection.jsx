@@ -1,3 +1,6 @@
+// InfoSection.jsx
+// This section is used to house a quick "Elevator Pitch" that is displayed using the card component. 
+
 import React from "react";
 import "../styles/info-section.css";
 import Card from "../components/Card";

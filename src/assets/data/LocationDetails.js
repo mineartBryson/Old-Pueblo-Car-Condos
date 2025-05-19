@@ -1,3 +1,7 @@
+// LocaitonDetails.js
+// This file houses the list of details that we need to access for the empty lot that could be used for the car condo complex.
+// A separate file was used to add modularity to the project and clean up the existing section files.
+
 const locationDetails = [
   {
     id: 1,

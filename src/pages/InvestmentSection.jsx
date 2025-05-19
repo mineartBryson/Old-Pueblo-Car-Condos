@@ -1,3 +1,7 @@
+//InvestmentSection.jsx
+// Used to house some quick facts at the end of the website and leave a lasting impression on WHY investors would benefit by betting on
+// Old Pueblo Car Condos. Includes sources to back up the information supplied and further inform possible stakeholders
+
 import React from "react";
 import "../styles/investments.css";
 

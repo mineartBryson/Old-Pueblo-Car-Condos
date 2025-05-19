@@ -1,3 +1,6 @@
+// Header.jsx
+// Header for teh website, contains the logo/website title and a simple navigation list that links to different sections via ids
+
 import React from "react";
 import '../styles/header.css';
 

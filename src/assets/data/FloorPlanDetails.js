@@ -1,3 +1,7 @@
+// FloorPlanDetails.js
+// This file houses the list of details that we need to access for the different floor plans.
+// A separate file was used to add modularity to the project and clean up the existing section files.
+
 import floorplan1 from "../images/FloorPlan1.jpg";
 import floorplan2 from "../images/FloorPlan2.jpg";
 import floorplan3 from "../images/FloorPlan3.jpg";

@@ -1,10 +1,10 @@
+// HeroSection.jsx
+// This section holds the rotating gallery at the top of the website and houses a small text overlay to make the website look modern
+// and add in a quick catch phrase to help draw in investors and leave a lasting impression on the possibilities.
+
 import React, { useState, useEffect } from "react";
 import Gallery from "../components/Gallery";
 import "../styles/hero-section.css";
-import Button from "../components/Button";
-
-
-
 
 function HeroSection() {
 

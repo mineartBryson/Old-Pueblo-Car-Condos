@@ -22,10 +22,11 @@
 
 .info__card:hover {
   transform: scale(1.05); /* Slight enlargement */
-  box-shadow: 0px 4px 8px #D61F1F; /* Gold glow effect */
+  box-shadow: 0px 4px 8px #D61F1F; /* Red glow effect */
   transition: all 0.3s ease-in-out; /* Smooth animation */
 }
 
+/* Mobile Responsiveness */
 @media (max-width: 700px) {
   .info__card h3 {
     font-size: 0.9rem;

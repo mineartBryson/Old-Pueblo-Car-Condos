@@ -1,3 +1,7 @@
+// Gallery.jsx
+// Used for the HeroSection on the webite to display several different photos that rotate every 4 seconds.
+// Adds a simple dynamic component to the UI experience.
+
 import React, { useState, useEffect } from "react";
 import carCollage1 from "../assets/images/CarCollage1.jpeg";
 import carCollage4 from "../assets/images/CarCollage4.jpeg";
