@@ -10,11 +10,13 @@
 /* Image Styling */
 .location__image {
   flex: 1;
+  width: 100%;
   max-width: 725px;
   border-radius: 12px;
 }
 
 img {
+  width: 100%;
   max-width: 720px;
   border-radius: 12px;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3); /* Modern depth */
@@ -29,6 +31,7 @@ img {
   border-radius: 12px;
   box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.15);
   transition: all 0.3s ease-in-out;
+  max-width: 850px;
 }
 
 /* Hover effect for depth */
@@ -39,7 +42,7 @@ img {
 
 /* Title Styling */
 .location__title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #FFD700;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -60,8 +63,8 @@ img {
 .location__list-item {
   display: flex;
   align-items: center;
-  gap: 12px; /* Space between icon and text */
-  font-size: 1.2rem;
+  gap: 10px; /* Space between icon and text */
+  font-size: 1.0rem;
   color: #E0E0E0;
   padding: 10px 0;
   transition: color 0.3s ease-in-out;
@@ -69,7 +72,7 @@ img {
 
 /* Modern Icon Styling */
 .location__list-item i {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #FFD700; /* Gold accent for luxury feel */
   transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -80,15 +83,43 @@ img {
   color: #FFF; /* Brightens on hover */
 }
 
-/* Responsive Layout */
-@media (max-width: 1200px) {
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
   .location {
     flex-direction: column;
     text-align: center;
+    gap: 30px;
+  }
+
+  .location__image, .location__details {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .location__title {
+    font-size: 1.5rem;
+  }
+
+  .location__list-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .location {
+    padding: 40px 20px;
+  }
+
+  .location__title {
+    font-size: 1.4rem;
+  }
+
+  .location__image {
+    max-width: 90%;
   }
 
   .location__details {
-    width: 100%;
+    padding: 20px;
   }
 }
 
