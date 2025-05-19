@@ -18,7 +18,6 @@ function HeroSection() {
           <h1 className="hero__title">Luxury Car Condos</h1>
           <p className="hero__subtitle">DESIGNED FOR COLLECTORS</p>
           <p className="hero__subtitle">BUILT FOR PRESTIGE</p>
-          <Button text={"Learn More"} modifier={"primary"}/>
         </div>
       </div>
     </section>

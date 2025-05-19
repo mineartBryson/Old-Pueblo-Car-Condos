@@ -1,12 +1,9 @@
 import React from "react";
 import "../styles/investments.css";
-// import marketDemandImg from "../assets/images/market-demand.jpeg";
-// import revenuePotentialImg from "../assets/images/revenue-potential.jpeg";
-// import investorBenefitsImg from "../assets/images/investor-benefits.jpeg";
 
 function InvestmentSection() {
   return (
-    <section className="investment">
+    <section className="investment" id="investors">
       <div className="investment__header">
         <h2>Invest in a High-Growth Market</h2>
         <p>Old Pueblo Car Condos presents a rare opportunity to capitalize on a **high-demand, low-supply** market.</p>

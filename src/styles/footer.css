@@ -19,7 +19,7 @@
 
 /* Navigation */
 .footer__nav {
-  display: flex;
+  margin-bottom: 15px;
 }
 
 .footer__list {
@@ -41,20 +41,31 @@
   color: #D61F1F; /* Crimson Red */
 }
 
+/* Contact Info Section */
+.footer__contact {
+  font-size: 1.1rem;
+  color: #E0E0E0;
+  margin-top: 10px;
+}
+
+.footer__contact p {
+  margin: 5px 0;
+}
+
+.footer__contact a {
+  color: #FFD700; /* Gold accent */
+  text-decoration: none;
+}
+
+.footer__contact a:hover {
+  text-decoration: underline;
+}
+
 /* Footer Info */
 .footer__info {
   font-size: 14px;
   color: #A0A0A0;
   margin-top: 15px;
-}
-
-.footer__info a {
-  color: #FFD700;
-  text-decoration: none;
-}
-
-.footer__info a:hover {
-  text-decoration: underline;
 }
 
 /* Responsive Layout */
@@ -65,6 +76,10 @@
 
   .footer__item {
     margin: 5px 0;
+  }
+
+  .footer__contact {
+    font-size: 1rem;
   }
 
   .footer__logo {

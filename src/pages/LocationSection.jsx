@@ -5,7 +5,7 @@ import details from "../assets/data/LocationDetails.js";
 
 function LocationSection() {
   return (
-    <section className="location">
+    <section className="location" id="location">
       {/* Left: Lot Image */}
       <div className="location__image">
         <img src={location} alt='Location lot image' />

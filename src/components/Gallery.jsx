@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import carCollage1 from "../assets/images/CarCollage1.jpeg";
-import carCollage2 from "../assets/images/CarCollage2.jpeg";
-import carCollage3 from "../assets/images/CarCollage3.jpeg";
 import carCollage4 from "../assets/images/CarCollage4.jpeg";
 import carCollage5 from "../assets/images/CarCollage5.jpeg";
 import carCollage6 from "../assets/images/CarCollage6.jpeg";

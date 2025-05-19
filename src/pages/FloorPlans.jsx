@@ -15,7 +15,7 @@ function FloorPlans() {
   };
 
   return (
-    <section className="floor-plans">
+    <section className="floor-plans"id="floor-plans">
       {floorPlansDetails.map((plan) => (
         <div key={plan.id} className="floor-plan-card">
           <h3 className="floor-plan-card__title">{plan.title}</h3>
