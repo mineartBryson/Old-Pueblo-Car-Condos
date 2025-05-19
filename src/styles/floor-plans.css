@@ -148,10 +148,14 @@
   .floor-plans {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .floor-plan-card {
     width: 90%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
   }
 
   .floor-plan-modal__content {
@@ -160,6 +164,8 @@
 
   .floor-plan-modal__body {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .floor-plan-modal__image {
@@ -170,9 +176,11 @@
   }
   .floor-plan-modal__details {
     font-size: 0.9rem;
+    text-align: center;
   }
   .floor-plan-card__title {
     font-size: 1.4rem;
+    text-align: center;
   }
 
 }
