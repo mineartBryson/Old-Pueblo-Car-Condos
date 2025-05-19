@@ -10,23 +10,31 @@ function InvestmentSection() {
       </div>
 
       <div className="investment__grid">
-        <div className="investment__card">
-          {/* <img src={marketDemandImg} alt="Market Demand" className="investment__image"/> */}
-          <h3>📈 Market Demand</h3>
-          <p>Luxury car storage demand exceeds **355,000+ units**, while fewer than **10,000 units** exist nationwide.</p>
-        </div>
+      <div className="investment__card">
+        <h3>📈 Market Demand</h3>
+        <p>
+          Luxury car storage demand exceeds <strong>355,000+ units</strong>, while fewer than 
+          <strong>10,000 units</strong> exist nationwide. 
+          <a href="https://www.astuteanalytica.com/industry-report/vehicle-storage-unit-market">[Source]</a>
+        </p>
+      </div>
 
-        <div className="investment__card">
-          {/* <img src={revenuePotentialImg} alt="Revenue Potential" className="investment__image"/> */}
-          <h3>💰 Revenue Streams</h3>
-          <p>Investors earn from **unit appreciation, rental income, and premium service add-ons**.</p>
-        </div>
+      <div className="investment__card">
+        <h3>💰 Revenue Streams</h3>
+        <p>
+          Investors earn from <strong>unit appreciation, rental income, and premium service add-ons</strong>. 
+          <a href="https://selling-guide.fanniemae.com/sel/b3-3.1-08/rental-income">[Source]</a>
+        </p>
+      </div>
 
-        <div className="investment__card">
-          {/* <img src={investorBenefitsImg} alt="Investor Benefits" className="investment__image"/> */}
-          <h3>🚀 Investor Benefits</h3>
-          <p>Early investors secure **premium units** and benefit from **pre-sale incentives & future appreciation**.</p>
-        </div>
+      <div className="investment__card">
+        <h3>🚀 Investor Benefits</h3>
+        <p>
+          Early investors secure <strong>premium units</strong> and benefit from 
+          <strong>pre-sale incentives & future appreciation</strong>. 
+          <a href="https://darroweverett.com/private-equity-management-incentive-structures-pros-cons/">[Source]</a>
+        </p>
+      </div>
       </div>
     </section>
   );

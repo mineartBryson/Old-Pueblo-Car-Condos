@@ -17,9 +17,9 @@ function Footer() {
       </nav>
 
       <div className="footer__contact">
-        <p><strong>Contact:</strong> Bryson Mineart</p>
+        <p><strong>Contact:</strong> Shea Gaffney</p>
         <p><strong>Phone:</strong> (555) 123-4567</p>
-        <p><strong>Email:</strong> <a href="mailto:bryson@oldpueblo.com">bryson@oldpueblo.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:Sheagaffney@gmail.com">bryson@oldpueblo.com</a></p>
       </div>
 
       <div className="footer__info">
